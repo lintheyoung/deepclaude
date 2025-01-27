@@ -65,7 +65,7 @@ use std::{collections::HashMap, pin::Pin};
 use futures::StreamExt;
 use serde_json;
 
-pub(crate) const DEEPSEEK_API_URL: &str = "https://api.deepseek.com/chat/completions";
+pub(crate) const DEEPSEEK_API_URL: &str = "https://api.gptapi.us/v1/chat/completions";
 const DEFAULT_MODEL: &str = "deepseek-reasoner";
 
 /// Client for interacting with DeepSeek's AI models.
