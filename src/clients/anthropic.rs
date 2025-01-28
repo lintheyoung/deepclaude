@@ -47,7 +47,7 @@ use std::{collections::HashMap, pin::Pin};
 use futures::StreamExt;
 use serde_json;
 
-pub(crate) const ANTHROPIC_API_URL: &str = "https://api.gptapi.us/v1/messages";
+pub(crate) const ANTHROPIC_API_URL: &str = "https://api.302.ai/v1/messages";
 const DEFAULT_MODEL: &str = "claude-3-5-sonnet-20241022";
 
 /// Client for interacting with Anthropic's Claude models.
