@@ -468,7 +468,7 @@ export function Chat({ selectedModel, onModelChange, apiTokens }: ChatProps) {
         }
       }
 
-      const response = await fetch("https://api.deepclaude.com", {
+      const response = await fetch("http://123.207.218.133:1337", {
         method: "POST",
         signal: controller.signal,
         headers: {
